@@ -42,7 +42,7 @@ from homeassistant.loader import bind_hass
 _LOGGER = logging.getLogger(__name__)
 
 DOMAIN = "cover"
-SCAN_INTERVAL = timedelta(seconds=15)
+SCAN_INTERVAL = timedelta(seconds=3)
 
 ENTITY_ID_FORMAT = DOMAIN + ".{}"
 
